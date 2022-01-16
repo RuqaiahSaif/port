@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- nav -->
+    <header>
+        <div class="continer">
+            <div class="navbar">
+                <h3 class="logo">Roqia</h3>
+
+                <nav>
+                    <i class="fas fa-bars toggle-menue"></i>
+                    <ul id="dropmenue">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <i class="fas fa-moon" id="moon" onclick="myFunction()"></i>
+                <!-- <button onclick="myFunction()">dark mode</button> -->
+            </div>
+        </div>
+    </header>
+    <!-- home -->
+
+    <section id="home" class="bk" class="section-hight">
+        <div class="continer">
+            <div class="sec">
+                <div class="col-2">
+                    <div class="rimg">
+                        <img src="images/photo.jpg" alt="roqia">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="rname">
+                        <h2>Ruqaiah Saif</h2>
+                        <h3>Wep Devloper </h3>
+                        <p>I'm a full-stack developer specialised in frontend and backend development for complex
+                            scalable
+                            web
+                            apps.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Us -->
+    <section id="about" class="section-hight">
+        <div class="continer">
+            <h1 class="hd">About us</h1>
+            <section class="sec1">
+                <div class="col-2">
+                    <div class="myskill">
+                        <p>skils</p>
+
+                        <h4>HTML</h4>
+                        <div class="progress">
+                            <div class="progress__bar" style="width:80%"></div>
+                        </div>
+
+
+                        <h4>CSS</h4>
+                        <div class="progress">
+                            <div class="progress__bar" style="width:80%"></div>
+                        </div>
+
+
+                        <h4>JS</h4>
+                        <div class="progress">
+                            <div class="progress__bar" style="width:60%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="con">
+                        <div class="myskill">
+                            <p>Experinces</p>
+                            <div class="ex">
+                                <div><i class="fas fa-caret-right"></i>I work as Freelancer</div>
+                                <div><i class="fas fa-caret-right"></i>I work as Web Devloper </div>
+                                <div><i class="fas fa-caret-right"></i>I work as App Devloper</div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </section>
+    <!-- Services -->
+    <section id="services" class="section-hight1">
+        <div class="continer">
+
+            <h1 class="hd">services</h1>
+
+            <div class="services-content">
+
+                <div class="d1">
+
+                    <i class="fab fa-android"></i>
+                    <h1>App Devloper </h1>
+
+                </div>
+                <div class="d1">
+
+                    <i class="fas fa-laptop-code"></i>
+
+                    <h1>Web Devloper</h1>
+
+                </div>
+                <div class="d1 ">
+                    <i class="fas fa-desktop fa-x3"></i>
+
+                    <h1>Web Design</h1>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="section-hight">
+        <div class="continer">
+            <h1 class="hd">
+                Previous Work
+            </h1>
+            <div class="services-content">
+                <div class="d2">
+                    <div class="img-con">
+                        <img src="images/img1.JPG" onmouseover="OnMouseIn (this)" onmouseout="OnMouseOut (this)" alt=""
+                            style="height:300px;">
+                    </div>
+                </div>
+                <div class="d2">
+                    <div class="img-con">
+                        <img src="images/img2.JPG" onmouseover="OnMouseIn (this)" onmouseout="OnMouseOut (this)" alt="">
+                    </div>
+                </div>
+                <div class="d2">
+                    <div class="img-con">
+                        <img src="images/img3.JPG" onmouseover="OnMouseIn (this)" onmouseout="OnMouseOut (this) "
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- contact us -->
+    <section id="contact">
+        <div class="continer">
+            <div class="sec">
+                <div class="contact bk">
+                    <h1 class="hd">
+                        contact us
+                    </h1>
+                    <form action="action_page.php" class="form-contact">
+
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <span id="erorr" style="color: red;"></span><br>
+                        <label for="lname">Email</label>
+                        <input type="text" id="email" name="youremail" placeholder="Your email..">
+                        <span id="emailerorr" style="color: red;"></span><br>
+                        <label for="subject">Your Massage</label>
+                        <textarea id="msg" name="subject" placeholder="Write something.."
+                            style="height:200px"></textarea>
+                        <p id="msgErorr" style="color: red;"></p>
+
+                        <input type="button" id="send" value="Send">
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="continer">
+
+        <div class="social">
+            <!-- Add font awesome icons -->
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <!-- <a href="#" class="fa fa-google"></a> -->
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-github"></i>
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer>
+
+
+        <p> &copy; 2022 Ruqaiah Saif - All Rights Reserved.</p>
+
+
+    </footer>
+
+    <script src="js.js"></script>
+</body>
+
+</html>
